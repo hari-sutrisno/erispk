@@ -96,7 +96,7 @@
                                         {{-- Edit --}}
                                         @can('status edit')
                                             <x-tooltip content="Edit" position="top">
-                                                <a href="{{ route('statuses.edit', $tipe->id) }}"
+                                                <a href="{{ route('tipe.edit', $tipe->id) }}"
                                                     class="inline-flex items-center justify-center rounded-lg text-indigo-500 hover:text-indigo-600 transition">
                                                     <x-fas-pen-to-square class="w-4 h-4" />
                                                 </a>
